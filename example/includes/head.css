@@ -1,0 +1,18 @@
+<style>
+body {
+    background: #FFF;
+    font-family: Helvetica;
+    padding: 20px;
+}
+
+nav,
+footer {
+    padding: 20px;
+    background: #0CF;
+}
+
+.content {
+    color: #F00;
+    padding: 20px 0;
+}
+</style>
