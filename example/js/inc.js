@@ -14,10 +14,9 @@
 *  2019 - Brent Gustafson 
 ***********************************************************************/
 
-// Dev Environment true = keep inc: comments after insertion.
-const devEnv = false;
-
 document.addEventListener("DOMContentLoaded", ()=> {
+    // Dev Environment true = keep inc: comments after insertion.
+    const devEnv = false;
 
     // Safely grab scripts, move them to end of doc and run them.
     const runScripts = (text)=> {
