@@ -1,5 +1,7 @@
 # Inc.js
-Simple HTML Includes in Javascript. Inc.js is a simple way to include one HTML document into another one using nothing more than HTML comment tags.  Inc.js uses vanilla Javascript and as such has no dependencies.
+Inc.js is a simple way to include one HTML document into another one using nothing more than HTML comment tags.  Inc.js uses vanilla Javascript and as such has no dependencies.
+
+I wrote Inc.js because I spent a lot of time mocking up static HTML templates and wanted an easy way to include reusable HTML snippets that didn't muddy up the HTML/DOM and was easy to use.  Using comments fit the bill.
 
 ### How to use
 * Simply add a comment to your HTML with the format `<!-- inc:/path/to/template.html -->`
@@ -10,7 +12,7 @@ Simple HTML Includes in Javascript. Inc.js is a simple way to include one HTML d
 * In Inc.js (non-minified) you can set the `devEnv` (Dev Environment) to `true` or `false`.
 * `true`     keeps the inc comments in the DOM.
 * `false` removes the inc comments from the DOM (default).
-* The minified JS does not have this feature.
+* The minified JS does not have this feature and always removes inc comments.
 
 ### Requirements
 * Inc.js needs a webserver to run correctly (because of AJAX calls).  If you’re developing locally and are on a Mac, you can easily get a webserver running.  Open the Terminal,  go to your project folder and use the command: `python -m SimpleHTTPServer`
