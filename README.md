@@ -10,9 +10,10 @@ I wrote Inc.js because I spent a lot of time mocking up static HTML templates an
 
 ### Config
 * In Inc.js (non-minified) you can set the `devEnv` (Dev Environment) to `true` or `false`.
-* `true`     keeps the inc comments in the DOM.
-* `false` removes the inc comments from the DOM (default).
-* The minified JS does not have this feature and always removes inc comments.
+* `true`     keeps the Inc comments in the DOM.
+* `false` removes the Inc comments from the DOM (default).
+* The minified JS does not have this feature and always removes Inc comments.
+* Non-Inc comments will always stay in the DOM and not be removed.
 
 ### Requirements
 * Inc.js needs a webserver to run correctly (because of AJAX calls).  If you’re developing locally and are on a Mac, you can easily get a webserver running.  Open the Terminal,  go to your project folder and use the command: `python -m SimpleHTTPServer`
